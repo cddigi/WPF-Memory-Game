@@ -23,6 +23,12 @@ namespace Project5
         public MainWindow()
         {
             InitializeComponent();
+            SetupGrid();
+        }
+
+        private void SetupGrid()
+        {
+
         }
     }
 }

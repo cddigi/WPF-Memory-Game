@@ -5,8 +5,103 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Donley's Carcentration Game">
+    <StackPanel>
+        <UniformGrid Name="ImageGrid" Rows="4" Columns="7">
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image0" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image1" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image2" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image3" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image4" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image5" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image6" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image7" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image8" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image9" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image10" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image11" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image12" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image13" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image14" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image15" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image16" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image17" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image18" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image19" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image20" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image21" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image22" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image23" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image24" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image25" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image26" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                <Image Name="Image27" Source="pack://application:,,,/images/hidden.png"></Image>
+            </Border>
+        </UniformGrid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal">
+                <Label>Timer:</Label>
+                <Label>HH:MM:SS</Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label>Number of Clicks:</Label>
+                <Label>0</Label>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
 </Window>
